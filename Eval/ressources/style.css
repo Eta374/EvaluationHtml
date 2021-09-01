@@ -1,0 +1,524 @@
+/*
+
+Autor : Elouan
+Version : 0.1
+
+
+FONT p, h11, h2, h3, h4 : font-family: 'Lato', sans-serif;
+
+COLOR :
+button : #1caa5b
+p, h11, h2, h3, h4 : #fff
+
+
+*/
+header {
+  height: 70vh;
+  background-image: linear-gradient(150deg, rgba(48, 138, 200, 0.7) 0%, rgba(64, 241, 167, 0.7) 99%), url(./images/photo-1624095212753-ad9c21f5cca7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header a {
+  color: #fff !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.container-fluid {
+  width: 85% !important;
+  margin-top: 15px;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contactUs {
+  margin-left: 70px;
+}
+
+.contactUs a {
+  background-color: #1caa5b;
+  padding: 13px;
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: inherit;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 7%;
+}
+
+.title h1 {
+  width: 40%;
+  text-align: center;
+}
+
+.title span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .mainImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  width: 30%;
+}
+
+main .mainImg img {
+  width: 100%;
+}
+
+main .mainTxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  width: 30%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .mainTxt p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+main .mainTxt .download {
+  margin-left: 0;
+}
+
+main .mainTxt .download a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mainIcon {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.mainIcon h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.mainIcon h3, .mainIcon p {
+  font-family: 'Lato', sans-serif;
+}
+
+.mainIcon .icons {
+  width: 25%;
+}
+
+.mainIcon .iconB1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mainIcon .iconB1 i {
+  font-size: 35px;
+  background: linear-gradient(150deg, rgba(48, 138, 200, 0.7) 0%, rgba(64, 241, 167, 0.7) 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainIcon .iconB2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mainIcon .iconB2 i {
+  font-size: 35px;
+  background: linear-gradient(150deg, rgba(48, 138, 200, 0.7) 0%, rgba(64, 241, 167, 0.7) 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainPhoto {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainPhoto .load {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 5rem;
+  margin-left: 0;
+}
+
+.mainPhoto .load a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mainPhoto .photoTitle {
+  height: 20vh;
+  margin-left: 10%;
+  letter-spacing: 3px;
+}
+
+.mainPhoto .photoTitle h1 {
+  font-weight: 400;
+}
+
+.mainPhoto .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60 vh;
+}
+
+.mainPhoto .photo img {
+  width: 25%;
+  height: 40vh;
+}
+
+.mainCom {
+  height: 70vh;
+  background: linear-gradient(93deg, #0b5589 20%, #23ac8d 70%, #40f1a7 99%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+.mainCom .comImg {
+  margin-top: 15px;
+}
+
+.mainCom .comImg img {
+  border-radius: 100px;
+  width: 5rem;
+  margin: 15px;
+}
+
+.mainCom .comImg .images {
+  width: 4rem !important;
+}
+
+.mainCom .comTxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainCom .comTxt i {
+  font-size: 40px;
+  margin: 1rem;
+}
+
+.mainCom .comTxt h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.mainCom .comTxt h4 {
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.mainCom .comTxt p {
+  margin: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.mainContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contactB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.contactB .contact {
+  margin-right: 20px;
+}
+
+.contactB .contact .adresse p {
+  color: #767171;
+}
+
+.contactB .contact .adresse h3, .contactB .contact .adresse p {
+  font-family: 'Lato', sans-serif;
+}
+
+.contactB form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 35vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contactB .form {
+  width: 30%;
+  color: #bcb8b8;
+}
+
+.contactB .form ::-webkit-input-placeholder {
+  color: #bcb8b8;
+}
+
+.contactB .form :-ms-input-placeholder {
+  color: #bcb8b8;
+}
+
+.contactB .form ::-ms-input-placeholder {
+  color: #bcb8b8;
+}
+
+.contactB .form ::placeholder {
+  color: #bcb8b8;
+}
+
+.contactB .form input, .contactB .form textarea {
+  border: 1px solid #d5d1d1;
+  padding: 5px;
+}
+
+.contactTitle h1 {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+}
+
+.down a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.down a:hover {
+  color: #fff;
+}
+
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 66, 110, 0.8)), to(rgba(5, 66, 110, 0.8))), url(/ressources/images/photo-1512917774080-9991f1c4c750.jpg);
+  background-image: linear-gradient(rgba(5, 66, 110, 0.8), rgba(5, 66, 110, 0.8)), url(/ressources/images/photo-1512917774080-9991f1c4c750.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Lato', sans-serif;
+}
+
+footer .container {
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer h3 {
+  padding: 15px;
+}
+
+footer .footerB1 {
+  width: 40%;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+  main, .container {
+    padding: 15px;
+    height: 100vh !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  .mainIcon {
+    height: 100vh !important;
+  }
+  .photo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 20rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainPhoto {
+    height: 180vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainCom {
+    height: 150vh;
+  }
+  .mainPhoto img {
+    width: 15rem !important;
+    height: 25vh !important;
+  }
+  .mainImg, .mainTxt {
+    height: 25vh !important;
+    width: 11rem !important;
+  }
+  iframe {
+    width: 15rem;
+    height: auto;
+  }
+  .contactUs {
+    margin-left: 0;
+  }
+  .mainContact {
+    height: 140vh;
+  }
+  .form {
+    width: 10rem !important;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 20px;
+    height: 47vh !important;
+  }
+  form {
+    height: 45vh !important;
+  }
+  footer {
+    height: 150vh;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  footer .footerB1 {
+    width: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
